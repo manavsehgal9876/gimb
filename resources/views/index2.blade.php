@@ -4335,7 +4335,7 @@
   <script src="{{ secure_asset('assetnew/js/js_cPCwRnCPMg-z08dPNZgbfGdx1qzHhPQ9gewZgG4w0iM.js') }}"></script>
   <script src="{{ secure_asset('assetnew/cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.2/enquire.min.js') }}"></script>
   <script src="{{ secure_asset('assetnew/js/js_cviomQsDb5IKZGMs-PwKKjEPcqx-pthWRYkZJwjoBCc.js') }}"></script>
-  <script src="{{secure_asset('assetnew/js/js_wiT3NBGHOjdO5S3NkgFPawpf0xcrFwV70c7xAtCL0PM.js"></script>
+  <script src="{{ secure_asset('assetnew/js/js_wiT3NBGHOjdO5S3NkgFPawpf0xcrFwV70c7xAtCL0PM.js') }}"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script>
     $(document).ready(function() {
