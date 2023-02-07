@@ -1,0 +1,7 @@
+/* Source and licensing information for the line(s) below can be found at https://gim.ac.in/themes/custom/gim/scripts/fontfaceobserver-check.js. */
+(function(a){'use strict';Drupal.behaviors.atFFOI={attach:function(){a('html').addClass('fa-loading');var l=new FontFaceObserver('FontAwesome');l.load('\uf287\uf142\uf0fc').then(function(){a('html').removeClass('fa-loading').addClass('fa-loaded')},function(){a('html').removeClass('fa-loading').addClass('fa-unavailable')})}}}(jQuery));
+/* Source and licensing information for the above line(s) can be found at https://gim.ac.in/themes/custom/gim/scripts/fontfaceobserver-check.js. */;
+/* Source and licensing information for the line(s) below can be found at https://gim.ac.in/core/assets/vendor/matchMedia/matchMedia.min.js. */
+window.matchMedia||(window.matchMedia=function(){"use strict";var e=window.styleMedia||window.media;if(!e){var t=document.createElement("style"),i=document.getElementsByTagName("script")[0],n=null;t.type="text/css";t.id="matchmediajs-test";i.parentNode.insertBefore(t,i);n="getComputedStyle"in window&&window.getComputedStyle(t,null)||t.currentStyle;e={matchMedium:function(e){var i="@media "+e+"{ #matchmediajs-test { width: 1px; } }";if(t.styleSheet){t.styleSheet.cssText=i}else{t.textContent=i}return n.width==="1px"}}}return function(t){return{matches:e.matchMedium(t||"all"),media:t||"all"}}}());
+
+/* Source and licensing information for the above line(s) can be found at https://gim.ac.in/core/assets/vendor/matchMedia/matchMedia.min.js. */;
