@@ -10,15 +10,15 @@
   <link rel="shortcut icon" href="../sites/default/files/favicon.png" type="image/png" />
   <title>GOAL PGDM from GIM</title>
   <link rel="stylesheet" media="all"
-    href="{{ asset('assetnew/css/css_uqMoz9_9VuqwrmmXfnfyWHnV8JIox0P0mOj1iRWgxB8.css') }}" />
+    href="{{ secure_asset('assetnew/css/css_uqMoz9_9VuqwrmmXfnfyWHnV8JIox0P0mOj1iRWgxB8.css') }}" />
   <link rel="stylesheet" media="all"
-    href="{{ asset('assetnew/css/css_L19UhhSzPNh4Fmw1Fz11GA8vAqPsm0IPeQhGpfz1tDg.css') }}" />
+    href="{{ secure_asset('assetnew/css/css_L19UhhSzPNh4Fmw1Fz11GA8vAqPsm0IPeQhGpfz1tDg.css') }}" />
   <link rel="stylesheet" media="all"
-    href="{{ asset('assetnew/css/css_pzqegr3ZGZdzj7z5K5Gpn9LT_vBaoDwRibWW5iy7dKg.css') }}" />
+    href="{{ secure_asset('assetnew/css/css_pzqegr3ZGZdzj7z5K5Gpn9LT_vBaoDwRibWW5iy7dKg.css') }}" />
   <link rel="stylesheet" media="all"
-    href="{{ asset('assetnew/css/css_41y_PcnX8b8-TV6HSC3NBwYMnxVlGsuojmN9yp4Wncg.css') }}" />
+    href="{{ secure_asset('assetnew/css/css_41y_PcnX8b8-TV6HSC3NBwYMnxVlGsuojmN9yp4Wncg.css') }}" />
   <link rel="stylesheet" media="all"
-    href="{{ asset('assetnew/css/css_PRhpjH0_SntKQriaknObNVCJgZJdYMo7UQ0JQqNpKNI.css') }}" />
+    href="{{ secure_asset('assetnew/css/css_PRhpjH0_SntKQriaknObNVCJgZJdYMo7UQ0JQqNpKNI.css') }}" />
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
   <style>
@@ -4325,17 +4325,17 @@
       </div>
     </div>
   </div>
-  <script src="{{ asset('assetnew/ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js') }}"></script>
-  <script src="{{ asset('assetnew/ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js') }}"></script>
-  <script src="{{ asset('assetnew/js/js_Qflmc49Su6mkiC5Rsc4OgYdqgW2b4VL9kWjt9zL_dx0.js') }}"></script>
-  <script src="{{ asset('assetnew/js/page.js') }}" async></script>
-  <script src="{{ asset('assetnew/js/js_HI9HWvYQWaOAOwX2BJgYBAAOMKGTR7Z_7nQQEFZoTrw.js') }}"></script>
-  <script src="{{ asset('assetnew/cdnjs.cloudflare.com/ajax/libs/fontfaceobserver/2.0.8/fontfaceobserver.js') }}">
+  <script src="{{ secure_asset('assetnew/ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js') }}"></script>
+  <script src="{{ secure_asset('assetnew/ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js') }}"></script>
+  <script src="{{ secure_asset('assetnew/js/js_Qflmc49Su6mkiC5Rsc4OgYdqgW2b4VL9kWjt9zL_dx0.js') }}"></script>
+  <script src="{{ secure_asset('assetnew/js/page.js') }}" async></script>
+  <script src="{{ secure_asset('assetnew/js/js_HI9HWvYQWaOAOwX2BJgYBAAOMKGTR7Z_7nQQEFZoTrw.js') }}"></script>
+  <script src="{{ secure_asset('assetnew/cdnjs.cloudflare.com/ajax/libs/fontfaceobserver/2.0.8/fontfaceobserver.js') }}">
   </script>
-  <script src="{{ asset('assetnew/js/js_cPCwRnCPMg-z08dPNZgbfGdx1qzHhPQ9gewZgG4w0iM.js') }}"></script>
-  <script src="{{ asset('assetnew/cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.2/enquire.min.js') }}"></script>
-  <script src="{{ asset('assetnew/js/js_cviomQsDb5IKZGMs-PwKKjEPcqx-pthWRYkZJwjoBCc.js') }}"></script>
-  <script src="{{asset('assetnew/js/js_wiT3NBGHOjdO5S3NkgFPawpf0xcrFwV70c7xAtCL0PM.js"></script>
+  <script src="{{ secure_asset('assetnew/js/js_cPCwRnCPMg-z08dPNZgbfGdx1qzHhPQ9gewZgG4w0iM.js') }}"></script>
+  <script src="{{ secure_asset('assetnew/cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.2/enquire.min.js') }}"></script>
+  <script src="{{ secure_asset('assetnew/js/js_cviomQsDb5IKZGMs-PwKKjEPcqx-pthWRYkZJwjoBCc.js') }}"></script>
+  <script src="{{secure_asset('assetnew/js/js_wiT3NBGHOjdO5S3NkgFPawpf0xcrFwV70c7xAtCL0PM.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script>
     $(document).ready(function() {
