@@ -230,7 +230,7 @@
                                                             aria-required="true">
 
                                                         </div>
-                                                        <div
+                                                        {{-- <div
                                                           class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-mobile-number form-item-mobile-number">
                                                           <label for="edit-mobile-number"
                                                             class="js-form-required form-required"
@@ -242,7 +242,7 @@
                                                             class="form-text required" required="required"
                                                             aria-required="true">
 
-                                                        </div>
+                                                        </div> --}}
                                                         <div
                                                           class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-mobile-number form-item-mobile-number">
                                                           <label for="edit-mobile-number"
@@ -3109,7 +3109,7 @@
                                                                   required="required" aria-required="true" />
 
                                                               </div>
-                                                              <div
+                                                              {{-- <div
                                                                 class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-mobile-number form-item-mobile-number">
                                                                 <label for="edit-mobile-number"
                                                                   class="js-form-required form-required"
@@ -3122,7 +3122,7 @@
                                                                   class="form-text required" required="required"
                                                                   aria-required="true" />
 
-                                                              </div>
+                                                              </div> --}}
                                                               <div
                                                                 class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-mobile-number form-item-mobile-number">
                                                                 <label for="edit-mobile-number"
@@ -4253,7 +4253,7 @@
                                   class="form-email required" required="required" aria-required="true">
 
                               </div>
-                              <div
+                              {{-- <div
                                 class="js-form-item form-item-half form-item js-form-type-textfield form-type-textfield js-form-item-mobile-number form-item-mobile-number">
                                 <label for="edit-mobile-number" class="js-form-required form-required"
                                   style="font-size:14px">Country Code</label>
@@ -4262,7 +4262,7 @@
                                   value="" size="60" maxlength="255" class="form-text required"
                                   required="required" aria-required="true">
 
-                              </div>
+                              </div> --}}
                               <div
                                 class="js-form-item form-item-half form-item js-form-type-textfield form-type-textfield js-form-item-mobile-number form-item-mobile-number">
                                 <label for="edit-mobile-number" class="js-form-required form-required"
@@ -4447,6 +4447,12 @@
         return false;
 
       }
+
+      if (phone.length !== 10) {
+        alert('Phone number must be of 10 digits only.');
+        return false;
+      }
+
       var experience = document.getElementById('edit-enquiry-experience').value;
       if (experience == '') {
         alert('Please Select experience');
@@ -4488,7 +4494,6 @@
       const response = await axios.post(route('send-enquiry-data'), formData);
       $(".spinner-video").addClass("d-none");
       document.getElementById('edit-enquiry-name').value = '';
-      document.getElementById('edit-enquiry-country-code').value = '';
       document.getElementById('edit-enquiry-email').value = '';
       document.getElementById('edit-enquiry-mobile-number').value = '';
       document.getElementById('edit-enquiry-experience').value = '';
@@ -4522,6 +4527,12 @@
         return false;
 
       }
+
+      if (phone.length !== 10) {
+        alert('Phone number must be of 10 digits only.');
+        return false;
+      }
+
       var experience = document.getElementById('edit-banner-experience').value;
       if (experience == '') {
         alert('Please Select experience');
@@ -4563,7 +4574,6 @@
       const response = await axios.post(route('send-banner-data'), formData);
       $(".spinner-video-banner").addClass("d-none");
       document.getElementById('edit-banner-name').value = '';
-      document.getElementById('edit-banner-country-code').value = '';
       document.getElementById('edit-banner-email').value = '';
       document.getElementById('edit-banner-mobile-number').value = '';
       document.getElementById('edit-banner-experience').value = '';
@@ -4583,7 +4593,6 @@
         alert('Please Enter Name');
         document.getElementById("edit-apply-name").focus();
         return false;
-
       }
       var email = document.getElementById('edit-apply-email').value;
       if (email == '') {
@@ -4597,8 +4606,13 @@
         alert('Please Enter Phone Number');
         document.getElementById("edit-apply-mobile-number").focus();
         return false;
-
       }
+
+      if (phone.length !== 10) {
+        alert('Phone number must be of 10 digits only.');
+        return false;
+      }
+
       var experience = document.getElementById('edit-apply-experience').value;
       if (experience == '') {
         alert('Please Select experience');
@@ -4613,7 +4627,6 @@
         return false;
 
       }
-
 
       $(".spinner-video-apply").removeClass("d-none");
 
@@ -4640,7 +4653,6 @@
       formData.append('company_name', 'Edureka');
       const response = await axios.post(route('send-apply-data'), formData);
       document.getElementById('edit-apply-name').value = '';
-      document.getElementById('edit-apply-country-code').value = '';
       document.getElementById('edit-apply-email').value = '';
       document.getElementById('edit-apply-mobile-number').value = '';
       document.getElementById('edit-apply-experience').value = '';
@@ -4648,8 +4660,8 @@
       $(".spinner-video-apply").addClass("d-none");
 
       if (applyType == "DOWNLOAD BROCHURE") {
-        $("#downloadLink").removeClass("d-none");
-        $("a#downloadLink").attr("href", "assetnew/Brochure.pdf")
+        // $("#downloadLink").removeClass("d-none");
+        // $("a#downloadLink").attr("href", "assetnew/Brochure.pdf")
         $("#apply-test").text("Thank you for filling out your information!");
         redirectToThankYouPage(true);
       } else {

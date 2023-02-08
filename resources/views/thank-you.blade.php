@@ -5,6 +5,23 @@
 
 <head>
 
+<script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TQQXVJW');
+  </script>
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="../sites/default/files/favicon.png" type="image/png" />
@@ -58,6 +75,10 @@
 
 <body role="document"
   class="layout-type--page-layout node-29 page-goal-pgdm user-logged-out path-not-frontpage path-node path-programmes-goal-pgdm page-node-type--program site-name--goa-institute-of-management theme-name--gim">
+    <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQQXVJW" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   @routes
   <a href="#block-gim-content" class="visually-hidden focusable skip-link">Skip to main content</a>
   <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
@@ -142,10 +163,9 @@
                       </h1>
                     </header>
 
-
-
-                    <div class="program-description ">
-                      <div class="title main_heading_">Your request has been successfully submitted!</div>
+                    <div class="program-description">
+                      <div class="title main_heading_">Thanks for showing interest in our program!</div>
+                      <p style="text-align: center;">Our team will connect with you to help you in your learning journey.</p>
                       <div class="container-inner clearfix" style="display: flex;justify-content: center;">
                         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                         <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_iux6ajkg.json"
@@ -164,48 +184,6 @@
 
 
               </main>
-              <div id="block-cookies"
-                class="l-bl block block-config-provider--block-content block-plugin-id--block-content-4a575d0d-2301-4143-a66b-55f31201075e block--type-basic block--view-mode-full"
-                id="block-content4a575d0d-2301-4143-a66b-55f31201075e">
-                <div class="block__inner">
-
-                  <div class="block__content">
-                    <div
-                      class="clearfix text-formatted field field-block-content--body field-formatter-text-default field-name-body field-type-text-with-summary field-label-hidden has-single">
-                      <div class="field__items">
-                        <div class="field__item">
-                          <div class="container-inner">
-                            <div class="cookies">
-                              <div class="action-wrapper"><a class="gim-btn-secondary" href="#"
-                                  id="cookies-accept">Accept</a> <span id="cookies-close">X</span></div>
-
-                              <div class="cookies-content">
-                                <p>We use Cookies on this site to enhance your experience and improve our marketing
-                                  efforts. To learn more click <a href="#" id="cookies-read-more">here</a></p>
-
-                                <p id="cookies-extra">Cookies and related technologies (herein “Cookies”) are small
-                                  text files that a website saves on your computer when you visit the site. Cookies the
-                                  University sets are called first-party Cookies. The data collected might be about you,
-                                  your device, your preferences, or your login information. This data is mostly used to
-                                  make the website work as expected so, for example, you don’t have to keep re-entering
-                                  your credentials whenever you come back to the site. Cookies set by third parties are
-                                  called third-party Cookies. We use third-party Cookies for analyzing website traffic
-                                  and our advertising and marketing efforts. We have divided the Cookies we use into the
-                                  following categories: Strictly Necessary, Performance, Functional, and Targeting.
-                                  Under each category heading on the left you will find a general description of the
-                                  Cookies in each category. You can change your browser settings to block, delete, or
-                                  alert you to Cookies. The Help menu on the menu bar of most browsers will tell you how
-                                  to do that. However, if you do, you may have to manually adjust preferences every time
-                                  you visit a site and some features may not work as intended.</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
