@@ -5,20 +5,34 @@
 
 <head>
 
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TQQXVJW');
+  </script>
+  <!-- End Google Tag Manager -->
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="../sites/default/files/favicon.png" type="image/png" />
   <title>GOAL PGDM from GIM</title>
-  <link rel="stylesheet" media="all"
-    href="assetnew/css/css_uqMoz9_9VuqwrmmXfnfyWHnV8JIox0P0mOj1iRWgxB8.css" />
-  <link rel="stylesheet" media="all"
-    href="assetnew/css/css_L19UhhSzPNh4Fmw1Fz11GA8vAqPsm0IPeQhGpfz1tDg.css" />
-  <link rel="stylesheet" media="all"
-    href="assetnew/css/css_pzqegr3ZGZdzj7z5K5Gpn9LT_vBaoDwRibWW5iy7dKg.css" />
-  <link rel="stylesheet" media="all"
-    href="assetnew/css/css_41y_PcnX8b8-TV6HSC3NBwYMnxVlGsuojmN9yp4Wncg.css" />
-  <link rel="stylesheet" media="all"
-    href="assetnew/css/css_PRhpjH0_SntKQriaknObNVCJgZJdYMo7UQ0JQqNpKNI.css" />
+  <link rel="stylesheet" media="all" href="assetnew/css/css_uqMoz9_9VuqwrmmXfnfyWHnV8JIox0P0mOj1iRWgxB8.css" />
+  <link rel="stylesheet" media="all" href="assetnew/css/css_L19UhhSzPNh4Fmw1Fz11GA8vAqPsm0IPeQhGpfz1tDg.css" />
+  <link rel="stylesheet" media="all" href="assetnew/css/css_pzqegr3ZGZdzj7z5K5Gpn9LT_vBaoDwRibWW5iy7dKg.css" />
+  <link rel="stylesheet" media="all" href="assetnew/css/css_41y_PcnX8b8-TV6HSC3NBwYMnxVlGsuojmN9yp4Wncg.css" />
+  <link rel="stylesheet" media="all" href="assetnew/css/css_PRhpjH0_SntKQriaknObNVCJgZJdYMo7UQ0JQqNpKNI.css" />
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
   <style>
@@ -63,6 +77,10 @@
 
 <body role="document"
   class="layout-type--page-layout node-29 page-goal-pgdm user-logged-out path-not-frontpage path-node path-programmes-goal-pgdm page-node-type--program site-name--goa-institute-of-management theme-name--gim">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQQXVJW" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   @routes
   <a href="#block-gim-content" class="visually-hidden focusable skip-link">Skip to main content</a>
   <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
@@ -981,10 +999,10 @@
                                                                   </td>
                                                                   <td
                                                                     style="border-bottom:none; width:33px; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; width:320px; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                 </tr>
                                                                 <tr style="border:0">
                                                                   <td class="xl67"
@@ -1269,13 +1287,13 @@
                                                                 <tr style="border:0">
                                                                   <td
                                                                     style="border-bottom:none; height:20px; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                 </tr>
                                                                 <tr style="border:0">
                                                                   <td class="xl65"
@@ -1297,10 +1315,10 @@
                                                                   </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                 </tr>
                                                                 <tr style="border:0">
                                                                   <td class="xl67"
@@ -1322,10 +1340,10 @@
                                                                   </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                 </tr>
                                                                 <tr style="border:0">
                                                                   <td class="xl67" data-ogsc="black"
@@ -1348,10 +1366,10 @@
                                                                   </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                 </tr>
                                                                 <tr style="border:0">
                                                                   <td class="xl67" data-ogsc="black"
@@ -1373,10 +1391,10 @@
                                                                   </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                 </tr>
                                                                 <tr style="border:0">
                                                                   <td class="xl67" data-ogsc="black"
@@ -1398,10 +1416,10 @@
                                                                   </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                 </tr>
                                                                 <tr style="border:0">
                                                                   <td class="xl67" data-ogsc="black"
@@ -1422,10 +1440,10 @@
                                                                   </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                 </tr>
                                                                 <tr style="border:0">
                                                                   <td class="xl67" data-ogsc="black"
@@ -1447,10 +1465,10 @@
                                                                   </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                 </tr>
                                                                 <tr style="border:0">
                                                                   <td class="xl67" data-ogsc="black"
@@ -1471,10 +1489,10 @@
                                                                   </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                 </tr>
                                                                 <tr style="border:0">
                                                                   <td class="xl67" data-ogsc="black"
@@ -1495,10 +1513,10 @@
                                                                   </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                 </tr>
                                                                 <tr style="border:0">
                                                                   <td class="xl67" data-ogsc="black"
@@ -1520,10 +1538,10 @@
                                                                   </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                 </tr>
                                                                 <tr style="border:0">
                                                                   <td class="xl67" data-ogsc="black"
@@ -1545,10 +1563,10 @@
                                                                   </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                   <td
                                                                     style="border-bottom:none; padding-top:1px; padding-right:1px; padding-left:1px; vertical-align:bottom; white-space:nowrap; border-top:none; border-right:none; border-left:none">
-                                                                    </td>
+                                                                  </td>
                                                                 </tr>
                                                               </tbody>
                                                             </table>
@@ -1931,7 +1949,7 @@
                                                   <ul>
                                                     <li>Students have to undertake compulsory project dissertation
                                                       work.<br />
-                                                      </li>
+                                                    </li>
                                                   </ul>
                                                   <p><strong>Work improvement project or a Case study</strong></p>
 
@@ -2070,7 +2088,7 @@
                                                                                 </h2>
                                                                                 <div class="text">
                                                                                   <p>Marketing<br />
-                                                                                    </p>
+                                                                                  </p>
 
                                                                                 </div>
                                                                               </div>
@@ -2103,7 +2121,7 @@
                                                                                 </h2>
                                                                                 <div class="text">
                                                                                   <p>Consumer Behaviour<br />
-                                                                                    </p>
+                                                                                  </p>
 
                                                                                 </div>
                                                                               </div>
@@ -3734,7 +3752,8 @@
 
                                                         <h2 class="block__title"
                                                           id="block-views-block-faqs-faqs-block-title">
-                                                          <span>Faqs</span></h2>
+                                                          <span>Faqs</span>
+                                                        </h2>
                                                         <div class="block__content">
                                                           <div class="element-container-wrapper">
                                                             <div
@@ -4330,8 +4349,7 @@
   <script src="assetnew/js/js_Qflmc49Su6mkiC5Rsc4OgYdqgW2b4VL9kWjt9zL_dx0.js"></script>
   <script src="assetnew/js/page.js" async></script>
   <script src="assetnew/js/js_HI9HWvYQWaOAOwX2BJgYBAAOMKGTR7Z_7nQQEFZoTrw.js"></script>
-  <script src="assetnew/cdnjs.cloudflare.com/ajax/libs/fontfaceobserver/2.0.8/fontfaceobserver.js">
-  </script>
+  <script src="assetnew/cdnjs.cloudflare.com/ajax/libs/fontfaceobserver/2.0.8/fontfaceobserver.js"></script>
   <script src="assetnew/js/js_cPCwRnCPMg-z08dPNZgbfGdx1qzHhPQ9gewZgG4w0iM.js"></script>
   <script src="assetnew/cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.2/enquire.min.js"></script>
   <script src="assetnew/js/js_cviomQsDb5IKZGMs-PwKKjEPcqx-pthWRYkZJwjoBCc.js"></script>
@@ -4384,7 +4402,7 @@
         n.find('.form-item--error-message').text('');
         n.find(
           'input[name="name"],input[name="mobile_number"],input[name="email"],input[name="comment"],input[name="event_date"],input[name="event_code"]'
-          ).not('[type="submit"]').val('')
+        ).not('[type="submit"]').val('')
       })
     });
   </script>
@@ -4393,9 +4411,22 @@
     const applyButton = document.querySelector("#edit-apply-submit");
     const bannerButton = document.querySelector("#edit-banner-submit");
 
+    function redirectToThankYouPage(link = false) {
+      if(link === false) {
+        setTimeout(() => {
+          location.href = route('thank-you');
+        }, "1000");
+      } else {
+        setTimeout(() => {
+          location.href = route('thank-you', {
+          downloadBrochure: 'yes'
+        });
+        }, "1000");
+      }
+    }
 
     //enquiry
-    enquiryButton.addEventListener('click', function() {
+    enquiryButton.addEventListener('click', async function() {
       var name = document.getElementById('edit-enquiry-name').value;
       if (name == '') {
         alert('Please Enter Name');
@@ -4454,9 +4485,7 @@
       formData.append('whatsapp_number', document.getElementById('edit-enquiry-mobile-number').value);
       formData.append('job_title', '');
       formData.append('company_name', 'Edureka');
-
-      console.log(route('send-enquiry-data'));
-      const response = axios.post(route('send-enquiry-data'), formData);
+      const response = await axios.post(route('send-enquiry-data'), formData);
       $(".spinner-video").addClass("d-none");
       document.getElementById('edit-enquiry-name').value = '';
       document.getElementById('edit-enquiry-country-code').value = '';
@@ -4465,11 +4494,12 @@
       document.getElementById('edit-enquiry-experience').value = '';
       document.getElementById('edit-enquiry-qualification').value = '';
       $("#enquiry-test").text("Thank you for filling out your information!");
+      redirectToThankYouPage();
 
     });
 
     //banner
-    bannerButton.addEventListener('click', function() {
+    bannerButton.addEventListener('click', async function() {
 
       var name = document.getElementById('edit-banner-name').value;
       if (name == '') {
@@ -4500,12 +4530,13 @@
 
       }
       var qualification = document.getElementById('edit-banner-qualification').value;
+
       if (qualification == '') {
         alert('Please Select Qualification');
         document.getElementById("edit-banner-qualification").focus();
         return false;
-
       }
+
       $(".spinner-video-banner").removeClass("d-none");
 
       let formData = new FormData();
@@ -4529,7 +4560,7 @@
       formData.append('whatsapp_number', document.getElementById('edit-banner-mobile-number').value);
       formData.append('job_title', '');
       formData.append('company_name', 'Edureka');
-      const response = axios.post(route('send-banner-data'), formData);
+      const response = await axios.post(route('send-banner-data'), formData);
       $(".spinner-video-banner").addClass("d-none");
       document.getElementById('edit-banner-name').value = '';
       document.getElementById('edit-banner-country-code').value = '';
@@ -4538,13 +4569,12 @@
       document.getElementById('edit-banner-experience').value = '';
       document.getElementById('edit-banner-qualification').value = '';
       $("#banner-test").text("Thank you for filling out your information!");
-      console.log(response)
-
+      redirectToThankYouPage();
     });
 
 
     // apply/brochure
-    applyButton.addEventListener('click', function() {
+    applyButton.addEventListener('click', async function() {
 
       var applyType = document.getElementById('applyType').value;
 
@@ -4608,9 +4638,7 @@
       formData.append('whatsapp_number', document.getElementById('edit-apply-mobile-number').value);
       formData.append('job_title', '');
       formData.append('company_name', 'Edureka');
-      console.log(route('send-apply-data'))
-      const response = axios.post(route('send-apply-data'), formData);
-      console.log(response)
+      const response = await axios.post(route('send-apply-data'), formData);
       document.getElementById('edit-apply-name').value = '';
       document.getElementById('edit-apply-country-code').value = '';
       document.getElementById('edit-apply-email').value = '';
@@ -4623,8 +4651,10 @@
         $("#downloadLink").removeClass("d-none");
         $("a#downloadLink").attr("href", "assetnew/Brochure.pdf")
         $("#apply-test").text("Thank you for filling out your information!");
+        redirectToThankYouPage(true);
       } else {
         $("#apply-test").text("Thank you for filling out your information!");
+        redirectToThankYouPage();
       }
 
 

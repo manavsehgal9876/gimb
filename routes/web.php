@@ -15,18 +15,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/new', function () {
-    return view('index');
+  return view('index');
 });
 Route::get('/', function () {
-    return view('index2');
+  return view('index2');
 });
 
-Route::post('send-enquiry-data',[ApiController::class,'sendEnquiryData'])->name('send-enquiry-data');
+Route::view('/thank-you', 'thank-you')->name('thank-you');
 
-Route::post('send-brochure-data',[ApiController::class,'sendBrochureData'])->name('send-brochure-data');
+Route::post('send-enquiry-data', [ApiController::class, 'sendEnquiryData'])->name('send-enquiry-data');
 
-Route::post('send-apply-data',[ApiController::class,'sendApplyData'])->name('send-apply-data');
+Route::post('send-brochure-data', [ApiController::class, 'sendBrochureData'])->name('send-brochure-data');
 
-Route::post('send-banner-data',[ApiController::class,'sendBannerData'])->name('send-banner-data');
+Route::post('send-apply-data', [ApiController::class, 'sendApplyData'])->name('send-apply-data');
 
- 
+Route::post('send-banner-data', [ApiController::class, 'sendBannerData'])->name('send-banner-data');

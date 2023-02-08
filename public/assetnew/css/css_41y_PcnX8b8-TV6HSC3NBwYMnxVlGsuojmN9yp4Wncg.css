@@ -231,6 +231,37 @@ select.required.form-select {padding: 0 10px; font-size: 14px;}
     content: "";
 }
 
+.block-plugin-id--views-block-faculty-program-faculty .slick-slide{min-height: 390px;}
+
+@media only screen and (max-width:1920px){
+    .oneside-full-width, .program-tab-container .learning-section.learning-tab .tabs-wrapper { max-width: 100% !important;}
+.oneside-full-width.full-width-left .oneside-full-width-inner-container{margin:0 auto !important;}
+}
+
+@media only screen and (max-width:1309px){
+  .footer_contentinfo .pd-box{ width: 50% !important;  min-height: 130px !important;}
+    .footer_contentinfo .pd-box:nth-child(2n) { border-right: 0;}
+    .footer_contentinfo .pd-box.border--btm { border-bottom: 1px solid #fff !important;}
+    .footer_contentinfo .pd-box.border--btm:nth-child(8n), .footer_contentinfo .pd-box.border--btm:nth-child(7n){border-bottom:0 !important;}  
+    
+}
+
+
+@media only screen and (max-width:1024px){
+    .page-node-type--program .program-description .pd-box{ padding: 0 15px !Important;}
+    .program-tab-container .learning-section.learning-tab .tabs-wrapper .sidebar-ul{padding-right:0 !important;}
+    .footer_contentinfo .pd-box{ width: 50% !important;  min-height: 130px !important;}
+    .footer_contentinfo .pd-box:nth-child(2n) { border-right: 0;}
+    .footer_contentinfo .pd-box.border--btm { border-bottom: 1px solid #fff !important;}
+    .footer_contentinfo .pd-box.border--btm:nth-child(8n), .footer_contentinfo .pd-box.border--btm:nth-child(7n){border-bottom:0 !important;}
+    div#block-footernavigation {margin-top: 60px;}
+}
+
+@media only screen and (max-width:970px){
+    
+    body .footer_contentinfo .pd-box, .footer_contentinfo .pd-box.border--btm:nth-child(8n), .footer_contentinfo .pd-box.border--btm:nth-child(7n){width:100% !important;    border-right: 0 !important;     border-bottom: 1px solid #fff !important;   min-height: 100% !important;}
+}
+
 @media only screen and (max-width:768px){
     body { margin-top: 0 !important;}
     .l-header.content-loading{overflow: visible !important;}

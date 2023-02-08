@@ -12,7 +12,7 @@ class ApiController extends Controller
     $response = Http::withHeaders([
       'USER-TOKEN' => 'edureka ',
     ])->post('https://api-user.edureka.co/userlead/create-user-lead', $request->all());
-
+    
     return $response;
   }
 
