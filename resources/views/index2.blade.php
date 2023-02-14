@@ -131,11 +131,11 @@
                               <ul class="gim-custom-user-menu-inner">
                                 <li class="gim-menu-item contact ">
                                   <a class="gim-menu-link "
-                                    href="https://gim.ac.in/contact-us">Contact<br>7669794874</a>
+                                    href="#">Contact<br>7669794874</a>
                                 </li>
                                 <li class="gim-menu-item  ">
                                   <a class="gim-menu-link apply_form" href="javascript:void(0)" data-toggle="modal"
-                                    onclick="setApply()" data-target="#basicModal">Apply Now</a>
+                                    onclick="setApply()" data-target="#basicModal" style=" padding: 7px !important;">Apply Now</a>
                                 </li>
                               </ul>
                             </div>
@@ -2170,7 +2170,7 @@
 
                                                               <div class="view-footer">
                                                                 <a class="gim-btn-secondary"
-                                                                  href="https://gim.ac.in/people/faculty ">VIEW ALL
+                                                                  href="https://gim.ac.in/people/faculty " target="_blank">VIEW ALL
                                                                   FACULTY</a>
                                                               </div>
                                                             </div>
@@ -3657,14 +3657,14 @@
                                                     <span>30%</span></a>
                                                 </div>
                                                 <div class="tab-content" id="tab-1630-1" style="display:none">
-                                                  <img src="https://www.vills.ai/gym/assetnew/images/img-11111.png">
+                                                  <img src="/assetnew/images/img-11111.png">
                                                 </div>
                                                 <div class="accordion-tab-title" data-target="tab-1632-1"
                                                   style="display:none">
                                                   <a href="javascript:void(0)">Work experience <span>30%</span></a>
                                                 </div>
                                                 <div class="tab-content" id="tab-1632-1" style="display:none">
-                                                  <img src="https://www.vills.ai/gym/assetnew/images/img-2222.png">
+                                                  <img src="/assetnew/images/img-2222.png">
 
                                                 </div>
                                                 <div class="accordion-tab-title" data-target="tab-1634-1"
@@ -3673,7 +3673,7 @@
                                                     <span>30%</span></a>
                                                 </div>
                                                 <div class="tab-content" id="tab-1634-1" style="display:none">
-                                                  <img src="https://www.vills.ai/gym/assetnew/images/img-3333.png">
+                                                  <img src="/assetnew/images/img-3333.png">
 
                                                 </div>
                                                 <div class="accordion-tab-title" data-target="tab-1634-2"
@@ -3682,7 +3682,7 @@
                                                     <span>10%</span></a>
                                                 </div>
                                                 <div class="tab-content" id="tab-1634-2" style="display:none">
-                                                  <img src="https://www.vills.ai/gym/assetnew/images/img-4444.png">
+                                                  <img src="/assetnew/images/img-4444.png">
 
                                                 </div>
 
@@ -4105,7 +4105,7 @@
                         <div class="field__item">
                           <div class="footer-navigation-wrapper">
                             <div class="footer-navigation-inner">
-                              <div class="footer-nav-detail-block footer-nav-block">
+                             <!-- <div class="footer-nav-detail-block footer-nav-block">
                                 <ul>
                                   <li><a href="#" target="_blank">GIM WEBMAIL</a></li>
                                   <li><a href="#" target="_blank">GIM ERP</a></li>
@@ -4125,7 +4125,7 @@
                                   <li><a href="#">Email: admin@gim.ac.in</a>; <a
                                       href="#">director@gim.ac.in</a></li>
                                 </ul>
-                              </div>
+                              </div>-->
 
                               <div class="footer-nav-detail-block footer-address-link-block">
                                 <address>Goa Institute of Management,<br />
@@ -4151,9 +4151,8 @@
                   </div>
                 </div>
               </div>
-              <div id="block-footercopyright"
-                class="l-bl block block-config-provider--block-content block-plugin-id--block-content-d00c20bb-b11f-4cb3-b86a-d715e4c95192 block--type-basic block--view-mode-full"
-                id="block-contentd00c20bb-b11f-4cb3-b86a-d715e4c95192">
+              <div id="block-footercopyright" class="l-bl block block-config-provider--block-content block-plugin-id--block-content-d00c20bb-b11f-4cb3-b86a-d715e4c95192 block--type-basic block--view-mode-full"
+                id="block-contentd00c20bb-b11f-4cb3-b86a-d715e4c95192" style="display:none">
                 <div class="block__inner">
 
                   <div class="block__content">
@@ -4412,15 +4411,13 @@
     const bannerButton = document.querySelector("#edit-banner-submit");
 
     function redirectToThankYouPage(link = false) {
-      if(link === false) {
+      if (link === false) {
         setTimeout(() => {
-          location.href = route('thank-you');
+          location.href = 'https://gimonlinepgdm.in/thank-you';
         }, "1000");
       } else {
         setTimeout(() => {
-          location.href = route('thank-you', {
-          downloadBrochure: 'yes'
-        });
+          location.href = 'https://gimonlinepgdm.in/thank-you?downloadBrochure=yes';
         }, "1000");
       }
     }
@@ -4491,7 +4488,7 @@
       formData.append('whatsapp_number', document.getElementById('edit-enquiry-mobile-number').value);
       formData.append('job_title', '');
       formData.append('company_name', 'Edureka');
-      const response = await axios.post(route('send-enquiry-data'), formData);
+      const response = await axios.post('https://gimonlinepgdm.in/send-enquiry-data', formData);
       $(".spinner-video").addClass("d-none");
       document.getElementById('edit-enquiry-name').value = '';
       document.getElementById('edit-enquiry-email').value = '';
@@ -4571,7 +4568,7 @@
       formData.append('whatsapp_number', document.getElementById('edit-banner-mobile-number').value);
       formData.append('job_title', '');
       formData.append('company_name', 'Edureka');
-      const response = await axios.post(route('send-banner-data'), formData);
+      const response = await axios.post('https://gimonlinepgdm.in/send-banner-data', formData);
       $(".spinner-video-banner").addClass("d-none");
       document.getElementById('edit-banner-name').value = '';
       document.getElementById('edit-banner-email').value = '';
@@ -4651,7 +4648,7 @@
       formData.append('whatsapp_number', document.getElementById('edit-apply-mobile-number').value);
       formData.append('job_title', '');
       formData.append('company_name', 'Edureka');
-      const response = await axios.post(route('send-apply-data'), formData);
+      const response = await axios.post('https://gimonlinepgdm.in/send-apply-data', formData);
       document.getElementById('edit-apply-name').value = '';
       document.getElementById('edit-apply-email').value = '';
       document.getElementById('edit-apply-mobile-number').value = '';
